@@ -31,6 +31,7 @@ const currentTime = document.getElementById("utc-time")
 days.textContent = today;
 
 const  timeUpdate=()=>{
+    const date = new Date();
     const time = date.getUTCMilliseconds()
     currentTime.textContent = time; 
 }
