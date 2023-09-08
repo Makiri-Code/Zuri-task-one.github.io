@@ -32,7 +32,7 @@ days.textContent = today;
 
 const  timeUpdate=()=>{
     const date = new Date();
-    const time = date.getTime()
+    const time = date.getUTCMilliseconds()
     currentTime.textContent = time; 
 }
 
