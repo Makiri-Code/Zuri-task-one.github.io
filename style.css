@@ -1,0 +1,56 @@
+h2 {
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+strong{
+    text-decoration: underline;
+    font-family: Poppins;
+}
+em {
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.heading{
+    width: 100%;
+}
+
+.container{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    font:  1em Helvetica;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 100%;
+    box-shadow: 2px 2px 4px 5px #ccc;
+}
+#text-content {
+    width: 50%;
+    text-align: justify;
+    margin-top: 0px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+img{
+    border-radius: 150px;
+    margin: 10px;
+}
+
+#today, #utc-time{
+    font: bold  1.5em/150%  Roboto;
+    margin: 0px;
+
+}
+
+a:hover{
+    color: red;
+}
