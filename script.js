@@ -36,4 +36,4 @@ const  timeUpdate=()=>{
     currentTime.textContent = time; 
 }
 
-setInterval(timeUpdate, 1); 
+setInterval(timeUpdate,1); 
