@@ -8,7 +8,7 @@ switch (today) {
         today = 'Tuesday';
         break;
     case 3: 
-        today = 'Wednessday';
+        today = 'Wednesday';
         break;
     case 4:
         today = 'Thursday';
@@ -32,7 +32,7 @@ days.textContent = today;
 
 const  timeUpdate=()=>{
     const date = new Date();
-    const time = date.getUTCMilliseconds()
+    const time = date.getTime()
     currentTime.textContent = time; 
 }
 
