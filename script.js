@@ -30,7 +30,7 @@ const days = document.getElementById("today");
 const currentTime = document.getElementById("utc-time")
 days.textContent = today;
 
-function timeUpdate(){
+const  timeUpdate=()=>{
     const time = date.getUTCMilliseconds()
     currentTime.textContent = time; 
 }
